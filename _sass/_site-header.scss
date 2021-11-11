@@ -10,7 +10,7 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  padding-bottom: 3.33333em;
+  padding-bottom: 1em;
   padding-top: 2.5em;
 }
 
@@ -60,8 +60,34 @@
     text-decoration: none;
     &:hover {
       color: _palette(accent);
+      text-decoration: underline;
+      text-underline-offset: -0.9em;
+      text-decoration-color: _palette(meta);
     }
   }
+  .nav-current {
+    color: var(--text-color);
+    text-decoration: underline;
+    text-decoration-color: _palette(accent);
+    &:hover {
+      color: _palette(accent);
+      text-decoration: underline;
+      text-underline-offset: -0.9em;
+      text-decoration-color: _palette(meta);
+    }
+  }
+}
+
+a.logo-text {
+   color: var(--text-color);
+   text-decoration: underline;
+   text-decoration-color: _palette(accent);
+   &:hover {
+     color: _palette(accent);
+     text-decoration: underline;
+     text-underline-offset: -1em;
+     text-decoration-color: var(--text-color);
+   }
 }
 
 .menu-toggle {

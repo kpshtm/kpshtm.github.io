@@ -3,11 +3,11 @@
     <channel>
         <title>KPSHTM</title>
         <description>Scriptor is a minimal, clean, modern &amp; responsive Jekyll theme for writers</description>
-        <link>kpshtm.github.io/</link>
-        <atom:link href="kpshtm.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 11 Nov 2021 15:31:35 +0700</pubDate>
-        <lastBuildDate>Thu, 11 Nov 2021 15:31:35 +0700</lastBuildDate>
-        <generator>Jekyll v4.0.1</generator>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Thu, 11 Nov 2021 23:27:16 +0700</pubDate>
+        <lastBuildDate>Thu, 11 Nov 2021 23:27:16 +0700</lastBuildDate>
+        <generator>Jekyll v4.2.1</generator>
         
             <item>
                 <title>first post on blog I had build</title>
@@ -42,8 +42,8 @@
 
 </description>
                 <pubDate>Thu, 11 Nov 2021 00:00:00 +0700</pubDate>
-                <link>kpshtm.github.io/journal/first-post-on-blog/</link>
-                <guid isPermaLink="true">kpshtm.github.io/journal/first-post-on-blog/</guid>
+                <link>http://localhost:4000/journal/first-post-on-blog/</link>
+                <guid isPermaLink="true">http://localhost:4000/journal/first-post-on-blog/</guid>
                 
                 <category>jekyll</category>
                 
@@ -82,8 +82,8 @@
 &lt;p&gt;As with water, ice absorbs light at the red end of the spectrum preferentially as the result of an overtone of an oxygen-hydrogen (O-H) bond stretch. Compared with water, this absorption is shifted toward slightly lower energies. Thus, ice appears blue, with a slightly greener tint than for liquid water. Since absorption is cumulative, the color effect intensifies with increasing thickness or if internal reflections cause the light to take a longer path through the ice.&lt;/p&gt;
 </description>
                 <pubDate>Sun, 05 Jan 2020 00:00:00 +0700</pubDate>
-                <link>kpshtm.github.io/journal/Graphic-Designer-On-The-Road/</link>
-                <guid isPermaLink="true">kpshtm.github.io/journal/Graphic-Designer-On-The-Road/</guid>
+                <link>http://localhost:4000/journal/Graphic-Designer-On-The-Road/</link>
+                <guid isPermaLink="true">http://localhost:4000/journal/Graphic-Designer-On-The-Road/</guid>
                 
                 <category>tips</category>
                 
@@ -139,8 +139,8 @@
 &lt;p&gt;Apple Watch finally goes on sale in India on Nov. 6. The device also has launched in Chile, the Philippines, and South Africa.  [ &lt;a href=&quot;https://en.wikipedia.org/wiki/Apple_Watch&quot;&gt;Source&lt;/a&gt; ]&lt;/p&gt;
 </description>
                 <pubDate>Fri, 04 Jan 2019 00:00:00 +0700</pubDate>
-                <link>kpshtm.github.io/journal/a-week-with-the-apple-watch/</link>
-                <guid isPermaLink="true">kpshtm.github.io/journal/a-week-with-the-apple-watch/</guid>
+                <link>http://localhost:4000/journal/a-week-with-the-apple-watch/</link>
+                <guid isPermaLink="true">http://localhost:4000/journal/a-week-with-the-apple-watch/</guid>
                 
                 <category>tips</category>
                 
@@ -190,8 +190,8 @@
 &lt;p&gt;Human waste is often a major source of environmental impact from hiking, and can contaminate the watershed and make other hikers ill. ‘Catholes’ dug 10 to 25 cm (4 to 10 inches) deep, depending on local soil composition and covered after use, at least 60 m (200 feet) away from water sources and trails, are recommended to reduce the risk of bacterial contamination. [ &lt;a href=&quot;https://en.wikipedia.org/wiki/Hiking&quot;&gt;Source&lt;/a&gt; ]&lt;/p&gt;
 </description>
                 <pubDate>Thu, 03 Jan 2019 00:00:00 +0700</pubDate>
-                <link>kpshtm.github.io/journal/basic-rules-for-walking-in-the-mountains/</link>
-                <guid isPermaLink="true">kpshtm.github.io/journal/basic-rules-for-walking-in-the-mountains/</guid>
+                <link>http://localhost:4000/journal/basic-rules-for-walking-in-the-mountains/</link>
+                <guid isPermaLink="true">http://localhost:4000/journal/basic-rules-for-walking-in-the-mountains/</guid>
                 
                 <category>tips</category>
                 
@@ -242,8 +242,8 @@
 &lt;p&gt;To accommodate the larger physical size of the iPhone 6 and iPhone 6 Plus, the power button was moved to the side of the phone instead of the top to improve its accessibility. The iPhone 6 features a 6.91 Wh (1810 mAh) battery, while the iPhone 6 Plus features a 11.1 Wh (2915 mAh) battery. Unlike the previous model, the rear-facing camera is not flush with the rear of the device, and has a slight “bulge” around the lens. It has a dual-core 1.4 GHz Cyclone processor (ARM v8-based). [ &lt;a href=&quot;https://en.wikipedia.org/wiki/IPhone_6&quot;&gt;Source&lt;/a&gt; ]&lt;/p&gt;
 </description>
                 <pubDate>Wed, 02 Jan 2019 00:00:00 +0700</pubDate>
-                <link>kpshtm.github.io/journal/set-up-your-new-iphone-6-the-Right-Way/</link>
-                <guid isPermaLink="true">kpshtm.github.io/journal/set-up-your-new-iphone-6-the-Right-Way/</guid>
+                <link>http://localhost:4000/journal/set-up-your-new-iphone-6-the-Right-Way/</link>
+                <guid isPermaLink="true">http://localhost:4000/journal/set-up-your-new-iphone-6-the-Right-Way/</guid>
                 
                 <category>tips</category>
                 
@@ -275,8 +275,8 @@
 &lt;p&gt;There are grass-covered concrete hangars (actual bunkers) from that time that were used for Soviet fighter aircraft (hence the Cyrillic transliteration of the festival name and various stages, as many Cyrillic inscriptions were still present on the site). The airfield was reopened for civilian use in 1994 and sold to the Müritz Airpark Group in 2010. [&lt;a href=&quot;https://en.wikipedia.org/wiki/Fusion_Festival&quot;&gt;Source&lt;/a&gt;]&lt;/p&gt;
 </description>
                 <pubDate>Tue, 01 Jan 2019 00:00:00 +0700</pubDate>
-                <link>kpshtm.github.io/journal/the-advantages-and-disadvantages-of-working-from-home/</link>
-                <guid isPermaLink="true">kpshtm.github.io/journal/the-advantages-and-disadvantages-of-working-from-home/</guid>
+                <link>http://localhost:4000/journal/the-advantages-and-disadvantages-of-working-from-home/</link>
+                <guid isPermaLink="true">http://localhost:4000/journal/the-advantages-and-disadvantages-of-working-from-home/</guid>
                 
                 <category>tips</category>
                 

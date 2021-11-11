@@ -20,28 +20,24 @@ html {
   }
 }
 
-body,
-.site-title.a {
+body {
   --bkg-color:  lemonchiffon;
   --text-color: #2c343c;
 }
 
-body.dark-theme,
-.site-title.a {
+body.dark-theme {
   --bkg-color:  #2c343c;
   --text-color: #9ba6ad;
 }
 
 @media (prefers-color-scheme: light) {
   /* prefer to dark scheme*/
-  body,
-  .site-title.a {
+  body {
     --bkg-color:  lemonchiffon;
     --text-color: #2c343c;
   }
   
-  body.dark-theme,
-  .site-title.a {
+  body.dark-theme {
     --bkg-color:  #2c343c;
     --text-color: #9ba6ad;
   }
@@ -63,8 +59,9 @@ a {
   -webkit-transition: color .3s ease;
   transition: color .3s ease;
   &:hover {
-    color: _palette(secondary);
+    color: var(--text-color);
     text-decoration: underline;
+    text-decoration-color: _palette(accent);
   }
 }
 
@@ -176,7 +173,7 @@ pre {
 }
 
 blockquote {
-  border-left: 3px solid var(--text-color);
+  border-left: 3px solid _palette(accent);
   color: var(--text-color);
   font-family: _font(secondary);
   font-style: italic;
@@ -431,3 +428,13 @@ video {
 		transform: rotate(-45deg);
 	}
 }
+
+      body::-webkit-scrollbar {
+        width: 0.5em;
+      }
+      body::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      }
+      body::-webkit-scrollbar-thumb {
+        background-color: var(--text-color);
+      }

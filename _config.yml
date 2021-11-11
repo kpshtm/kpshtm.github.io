@@ -37,6 +37,8 @@ navigation:
     url: /about
   - text: Track
     url: /track
+  - text: Reading
+    url: /reading
 
 # The shortname for your Disqus site to enable comments.
 disqus: justgoodthemes
@@ -57,6 +59,14 @@ footer:
 # paginate: 3
 # paginate_path: '/page:num/'
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: journal
+      read_time: true
 
 # Permalinks
 permalink: /:title
@@ -68,3 +78,11 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
+
+# Compress
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  startings: [head, body]
