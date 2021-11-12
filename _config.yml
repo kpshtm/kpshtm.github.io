@@ -67,6 +67,12 @@ defaults:
     values:
       layout: journal
       read_time: true
+  # - scope:
+  #     path: "tracks"
+  #     type: posts
+  #   values:
+  #     layout: tracks
+  #     extname: .gpx
 
 # Permalinks
 permalink: /:title

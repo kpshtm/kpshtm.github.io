@@ -1,0 +1,75 @@
+<body>
+    <section id="demo" class="gpx" data-gpx-source="{{ '/assets/jantho_garmin.gpx' | relative_url }}" data-map-target="demo-map">
+      <header>
+        <h3>Loading...</h3>
+        <span class="start"></span>
+      </header>
+
+      <article>
+        <div class="map" id="demo-map"></div>
+      </article>
+
+      <footer>
+        <ul class="info">
+          <center>
+          <li>Distance:&nbsp;<span class="distance"></span>&nbsp;km</li>
+          &mdash; <li>Duration:&nbsp;<span class="duration"></span></li>
+          &mdash; <li>Pace:&nbsp;<span class="pace"></span>/km</li>
+          &mdash; <li>Elevation:&nbsp;max <span class="elevation-max"></span>&nbsp;m,
+            min <span class="elevation-min"></span>&nbsp;m
+          </center>
+        </ul>
+      </footer>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.5.1/gpx.js"></script>
+
+    <script type="application/javascript">
+      function display_gpx(elt) {
+        if (!elt) return;
+
+        var url = elt.getAttribute('data-gpx-source');
+        var mapid = elt.getAttribute('data-map-target');
+        if (!url || !mapid) return;
+
+        function _t(t) { return elt.getElementsByTagName(t)[0]; }
+        function _c(c) { return elt.getElementsByClassName(c)[0]; }
+
+        var map = L.map(mapid);
+        L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+	attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+        }).addTo(map);
+
+        var control = L.control.layers(null, null).addTo(map);
+
+        new L.GPX(url, {
+          async: true,
+          marker_options: {
+            startIconUrl: 'pin-icon-start.png',
+            endIconUrl:   'pin-icon-end.png',
+            shadowUrl:    'pin-shadow.png',
+          },
+        }).on('loaded', function(e) {
+          var gpx = e.target;
+          map.fitBounds(gpx.getBounds());
+          control.addOverlay(gpx, gpx.get_name());
+
+          /*
+           * Note: the code below relies on the fact that the demo GPX file is
+           * an actual GPS track with timing and heartrate information.
+           */
+          _t('h3').textContent = gpx.get_name();
+          _c('start').textContent = gpx.get_start_time().toDateString() + ', '
+            + gpx.get_start_time().toLocaleTimeString();
+          _c('distance').textContent = gpx.m_to_km(gpx.get_distance().toFixed(0));
+          _c('duration').textContent = gpx.get_duration_string(gpx.get_moving_time());
+          _c('pace').textContent     = gpx.get_moving_speed().toFixed(0);
+          _c('elevation-min').textContent = gpx.get_elevation_min().toFixed(0);
+          _c('elevation-max').textContent = gpx.get_elevation_max().toFixed(0);
+        }).addTo(map);
+      }
+
+      display_gpx(document.getElementById('demo'));
+    </script>
+  </body>
