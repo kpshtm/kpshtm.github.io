@@ -3,8 +3,12 @@ layout: default
 ---
 
 <main class="site-main fadeInDown delay_075s">
-<div class="container">
-  <div class="last-update"><em>Last updated {{ site.data.reading.lastupdate }}</em></div>
+<article class="post">
+  <div class="post-content">
+    <blockquote>Daftar bacaan di bawah ini mulai serius diagarap sejak pertengahan November 2021. Untuk tahun-tahun dibawahnya berusaha diingat-ingat semampunya, mungkin ada yang terlewat atau mungkin salah tahun.
+    </blockquote>
+  </div>
+  <div class="last-update"><em>Terakhir diperbarui {{ site.data.reading.lastupdate }}</em></div>
   {% for entry in site.data.reading.list %}
   <div class="year-container">
     <div class="year">
@@ -15,16 +19,23 @@ layout: default
       <ul class="reading-list {{ entry.year }}">
         {% for book in entry.books %}
         <li>
-          <a href="{{ book.link }}" alt="_blank" rel="nofollow noopener">{{
+          <!-- <a href="{{ book.link }}" alt="_blank" rel="nofollow noopener"> --->
+          <a href="https://duckduckgo.com/?q={{ book.title }} {{ book.author }}" alt="_blank" rel="nofollow noopener" target="_blank">{{
             book.title
           }}</a>
-          <span class="author">by {{ book.author }}</span
-          >{% if book.star %}<span class="star"> ★</span>{% endif %}
+          <span class="author">by {{ book.author }}</span>
+          <!-- TODO: - hover text "show alternatif" -->
+          {% if book.star %}
+            <span class="star"> <i class="fas fa-star fa-xs"></i></span>
+          {% endif %}
+          {% if book.status == "read" %}
+            <span class="read"> <i class="fas fa-book-open fa-xs"></i></span>
+          {% endif %}
         </li>
         {% endfor %}
       </ul>
     </div>
   </div>
   {% endfor %}
-</div>
+</article>
 </main>
