@@ -1,0 +1,7 @@
+<ul>
+  {% for page in site.pages %}
+    {% if page.path contains 'tracks/' %}
+      <li><a href="{{ page.url | realative_url }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>

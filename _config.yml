@@ -67,6 +67,15 @@ defaults:
     values:
       layout: journal
       read_time: true
+
+  - scope:
+      path: "tracks/"
+    values:
+      long_title: Track I have been Walking
+      # extra_header: topics/cycling/header.html
+      permalink: /:path/:basename/
+      type: post
+      description: ""
   # - scope:
   #     path: "tracks"
   #     type: posts
