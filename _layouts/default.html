@@ -6,6 +6,7 @@ layout: compress
 <html lang="{{ site.lang | default: 'en-US' }}" data-theme="light">
 <head>
   {% include google_analytics.html %}
+<script src="https://kit.fontawesome.com/9aeee15e23.js" crossorigin="anonymous"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
@@ -18,14 +19,14 @@ layout: compress
   {% endif %}
   <!-- Styles -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
 <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
 </head>
 <body>
 
   <div id="page" class="site">
     <div class="float-button">
-      <button class="float-button btn-toggle"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></button>
+      <button class="float-button btn-toggle"><i class="fas fa-lightbulb fa-sm" aria-hidden="true"></i></button>
     </div>
     <div class="inner">
       {% include header.html %}

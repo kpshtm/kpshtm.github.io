@@ -1,16 +1,19 @@
 ---
 layout: page
 title: About this blog
-description: An optional about page for Scriptor Jekyll theme
+description: Kebun praktik digital
 feature_image: images/about.jpg
 ---
 
-**John Doe** is a Senior Art Director from [Vilnius](https://en.wikipedia.org/wiki/Vilnius), Lithuania. After graduating from The College of Visual Arts with a degree in Communication Design, he worked for three small graphic design shops where he honed his design style and sensibility.
+**Hafiz** seorang yang senang melakukan aktifitas di luar ruang. Aktifitas yang
+menurutnya dilakukan tanpa tekanan, atas sebab kehendak pribadi. Baginya,
+aktifitas seperti itu mengajarkan ia untuk bisa bersikap atas keraguannya pada
+beragam hal, utamanya yang bisa merugikan orang lain. Sebab ia percaya pada hal baik 🌻.
 
-His work has been recognized by Communication Arts, Print, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. Graphic Design USA named him a person to watch in 2015.
+Blog yang saudara kunjungi ini merupakan medium baginya untuk mendokumentasikan
+hal apapun yang dianggapnya perlu. Dibangun dengan
+[Jekyll](https://jekyllrb.com) dengan dasar template dari [Just Good
+Themes](https://scriptor-jekyll.netlify.app/) dan dikerjakan diatas mesin
+Lenovo G40-80 dengan sistem operasi [Artix Linux](https://artixlinux.org/).
 
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
-
-As a hobby, John Doe authors the most influential design blog in Lithuania with over 100,000 page views a month. He lives in Vilnius with his beautiful wife, two boys and one girl.
-
-*Thank You for reading!*
+*Terima kasih sudah mampir!*
