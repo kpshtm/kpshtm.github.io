@@ -1,5 +1,6 @@
-docs/*
-!docs/.gitkeep
+#docs/*
+#!docs/.gitkeep
+_draft/*
 
 *.swp
 

@@ -1,14 +1,14 @@
 ---
 layout: page
-title: About this blog
+title: Kebun praktik digital 
 description: Kebun praktik digital
 feature_image: images/about.jpg
 ---
 
 **Hafiz** seorang yang senang melakukan aktifitas di luar ruang. Aktifitas yang
 menurutnya dilakukan tanpa tekanan, atas sebab kehendak pribadi. Baginya,
-aktifitas seperti itu mengajarkan ia untuk bisa bersikap atas keraguannya pada
-beragam hal, utamanya yang bisa merugikan orang lain. Sebab ia percaya pada hal baik 🌻.
+aktifitas seperti itu mengajarkan ia untuk bisa belajar bersikap atas keraguannya pada
+beragam hal yang dipaksa mati. Sebab, ia percaya hal baik memang semestinya tumbuh 🌻.
 
 Blog yang saudara kunjungi ini merupakan medium baginya untuk mendokumentasikan
 hal apapun yang dianggapnya perlu. Dibangun dengan
