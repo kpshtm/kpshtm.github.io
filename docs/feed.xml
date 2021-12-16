@@ -5,63 +5,94 @@
         <description>Scriptor is a minimal, clean, modern &amp; responsive Jekyll theme for writers</description>
         <link>kpshtm.github.io/</link>
         <atom:link href="kpshtm.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 29 Nov 2021 06:41:50 +0700</pubDate>
-        <lastBuildDate>Mon, 29 Nov 2021 06:41:50 +0700</lastBuildDate>
+        <pubDate>Sun, 19 Dec 2021 01:51:36 +0700</pubDate>
+        <lastBuildDate>Sun, 19 Dec 2021 01:51:36 +0700</lastBuildDate>
         <generator>Jekyll v4.2.1</generator>
         
             <item>
-                <title>Sumber Terbuka!</title>
-                <description>&lt;h2 id=&quot;latar-belakang&quot;&gt;Latar Belakang&lt;/h2&gt;
+                <title>Mekarlah Mekar!</title>
+                <description>&lt;p&gt;Sekuntum bunga masih berbentuk kuncup. Walau seperempat abad sudah lewat. Sejak
+masih berupa benih, ia tumbuh di tanah kering bebatuan meski tidak pernah
+kekurangan air. Akarnya tunggal dengan serabut halus di sekeliling, batangnya
+berayun ikut kemana arah angin berhembus.&lt;/p&gt;
 
-&lt;p&gt;Awal 2020, sekitar bulan Februari kalau tidak salah ingat, aku memutuskan
-mingrasi ke Linux. Alasan paling mendasarnya karena mesin yang kugunakan untuk
-mengerjakan tugas akhir terasa lambat sekali, meski dengan OS Windows 10 MOD.
-Ini tentu saja asumsi ku. Berbekal eksperimen &lt;em&gt;dualboot&lt;/em&gt; OS saat jaman SMA, aku
-kepikiran “Apa pakai Linux aja ya? Mungkin akan lebih ringan”. Pertanyaan itu
-adalah pemantik kecil yang bisa kurasakan sekarang.&lt;/p&gt;
+&lt;p&gt;Saat musim hujan, ia tidak dibiarkan basah oleh keadaan sekitar, karena selalu
+dilindungi daun yang lebih tinggi dan besar darinya. Begitu juga kemarau, ia
+tidak mendapat sinar mentari oleh sebab daun besar itu. Tapi, daun selalu
+membagikan air terbaik yang bisa didapatkannya bagi bunga. Meski,
+sebenarnya, bukan air hal mendesak yang dibutuhkan oleh bunga.&lt;/p&gt;
 
-&lt;h2 id=&quot;sebab&quot;&gt;Sebab&lt;/h2&gt;
+&lt;p&gt;Bunga itu tidak pernah mendapat kehangatan dari mentari oleh sebab-sebab di
+luar dirinya. Bukan untuk ber-fotosintesis, melainkan hanya untuk menguatkan
+akar serabutnya yang halus. Saat tingginya sudah sebatas lutut orang dewasa,
+seekor hama datang menggerogoti sebagian kecil serabut itu, membuat batangnya
+semakin kopong dari dalam, tapi tetap kokoh dilihat si daun besar dan
+oleh kupu-kupu di sekitarnya.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Percikan pertama: membangun &lt;a href=&quot;https://dotfiles.github.io/&quot;&gt;&lt;em&gt;.dotfiles&lt;/em&gt;&lt;/a&gt;
-Aku membakar waktu yang harusnya ku pakai untuk mengerjakan tugas akhir. Aku
-malah asik membangun tampilan &lt;em&gt;desktop&lt;/em&gt; untuk membiasakan &lt;em&gt;workflow&lt;/em&gt; agar
-jari-jari tetap di keyboard.&lt;/p&gt;
+&lt;p&gt;Petaka datang saat kuncup sudah mulai keluar. Masih dengan kondisi yang sama,
+kekurangan sinar mentari ditambah kondisi iklim buruk yang mengubah banyak hal
+pada unsur tanah, menjadikan akar bunga tidak pernah tumbuh barang dua inci
+pun. Malahan, kekopongan batangnya semakin menjadi-jadi. Lewat kode-kode alam
+raya ia berteriak, berusaha bentindak, meleburkan benar-salah pada mata angin.&lt;/p&gt;
 
-    &lt;ol&gt;
-      &lt;li&gt;membiasakan pakai terminal&lt;/li&gt;
-      &lt;li&gt;baca dokumentasi &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;man &amp;lt;command&amp;gt;&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;command&amp;gt; --help/-h&lt;/code&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Percikan kedua: terpaksa lebih banyak membaca tulisan Inggris&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Saat masa akhir-akhir SMA aku mulai tertarik pada &lt;a href=&quot;https://en.wikipedia.org/wiki/Open_source&quot;&gt;&lt;em&gt;open source&lt;/em&gt;&lt;/a&gt;, dan sempat berucap dalam hati:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Keren juga kalau nanti kuliah, sampai selesai pakai Linux”.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Naif ya, memang. Dulunya cuma mikir soal etika intelektuil “bajak-membajak”
-antara OS berbayar &lt;em&gt;vs&lt;/em&gt; OS gratis. Berarti selama yang kugunakan adalah OS
-berbayar tapi bisa kudapatkan secara gratis dengan ilegal, selama itu jugalah
-hal apapun yang ku kerjakan di atas mesin ku berstatus “haram”. Padahal, aku
-masih sering membajak dalam bentuk lain. Di luar itu, aku suka dengan
-semangatnya &lt;em&gt;open source&lt;/em&gt;, soal kolaborasi, keterbukaan, dan semangat
-berkembang bersama.&lt;/p&gt;
-
-&lt;p&gt;Aku merasa punya alternatif lain, untuk mencapai satu tujuan, tanpa perlu harus bergantung pada satu aplikasi misalnya.&lt;/p&gt;
+&lt;p&gt;Teriakan dan kode-kode itu diamati oleh jenis kupu-kupu tertentu. Kupu-kupu
+tidak bisa merubah banyak hal oleh sebab umurnya yang pendek dan sifat
+ragu-ragu yang ada, ia hanya terus khawatir, semoga kuncup itu akan mekar suatu
+saat dengan akarnya menembus batu terkuat sekalipun. Tanpa penyesalan dengan
+penyelesaian.&lt;/p&gt;
 </description>
-                <pubDate>Sat, 27 Nov 2021 00:00:00 +0700</pubDate>
-                <link>kpshtm.github.io/journal/menulis-laporan-tugas-akhir-dengan-latex/</link>
-                <guid isPermaLink="true">kpshtm.github.io/journal/menulis-laporan-tugas-akhir-dengan-latex/</guid>
+                <pubDate>Thu, 16 Dec 2021 00:00:00 +0700</pubDate>
+                <link>kpshtm.github.io/journal/mekarlah-mekar/</link>
+                <guid isPermaLink="true">kpshtm.github.io/journal/mekarlah-mekar/</guid>
                 
-                <category>linux</category>
+                <category>growing</category>
                 
-                <category>oss</category>
+                <category>self</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Aman Jarum: Negeri Pining</title>
+                <description>&lt;p&gt;Aman Jarum, seorang tokoh adat sekaligus pencerita ulung di kecamatan Pining,
+kabupaten Gayo Lues. Beliau pernah 6 bulan di hutan, tahun 1984. Menurut cerita
+beliau, ada orang yang menjemput ke tengah rimba, kalau tidak, belum pulang
+saat itu.&lt;/p&gt;
+
+&lt;p&gt;Aku bertanya ke beliau, “kalau boleh tahu, apa yg dicari selama itu di hutan
+Aman?”, “saya cuma mau menikmati ciptaan tuhan, begitulah cara saya”, “sebab
+merugi orang-orang yang tidak bisa menikmati alam, ciptaan tuhan. Karena manusia pasti
+tidak bisa menciptakan batu-batu besar, pohon-pohon rindang itu. Makanan sudah ada di hutan,
+mau makan ikan tinggal mancing, mau makan ayam pasang jerat”, jawabnya dengan keyakinan penuh.&lt;/p&gt;
+
+&lt;p&gt;Menurut cerita beliau, nenek moyang masyarakat Pining dulunya datang ke negeri
+Pining disambut dengan harimau. Itulah alasan kenapa Aman Jarum menamakan
+gerakan mereka di kecamatan dengan Harimau Pining, “Biar yang muda-muda gak lupa
+dengan sejarah nenek moyang mereka sendiri”, tambahnya.&lt;/p&gt;
+
+&lt;figure class=&quot;image-card width-full caption&quot;&gt;
+  &lt;img src=&quot;/images/pining-landscape.jpg&quot; alt=&quot;Kampung Pertik&quot; /&gt;
+  
+  &lt;figcaption class=&quot;caption-text&quot;&gt;Kabut Pagi di Kampung Pertik&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;Secara tradisi, atau kebiasaan adat, di Aceh lebih kuat dalam
+penyampaian/informasi lewat tutur kata: hikayat, syair, dan semacamnya. Dalam
+konteks komunitas di Pining, kebiasaan itu diteruskan lewat didong –Gayo Lues,
+yang berbeda dengan didong Aceh Tengah– dengan membawa isu/hal yg berkaitan
+dengan “merawat alam”. Satu pendekatan yang sangat jenius menurutku yang sudah
+dilakukan secara turun temurun.&lt;/p&gt;
+
+&lt;p&gt;Kegiatan didong sendiri biasanya dilakukan oleh masyarakat secara kolektif, misalnya hajatan, perkawinan dan semacamnya. Sampai ada tradisi mandi dan buang air besar di sungai (Aih Aunen), karena memang sejak dulu bak mandi/mck memang tidak ada. Berbeda dengan sekarang, orang sudah bisa tarik air ke rumah dengan mesin.&lt;/p&gt;
+</description>
+                <pubDate>Wed, 08 Dec 2021 00:00:00 +0700</pubDate>
+                <link>kpshtm.github.io/journal/harimau-pining/</link>
+                <guid isPermaLink="true">kpshtm.github.io/journal/harimau-pining/</guid>
+                
+                <category>story</category>
+                
+                <category>people</category>
                 
                 
             </item>

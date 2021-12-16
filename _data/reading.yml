@@ -1,4 +1,4 @@
-lastupdate: 20211116
+lastupdate: 20211219
 list:
   - year: "2017"
     books:
@@ -47,6 +47,9 @@ list:
 
       - title: Tuhan Izinkan Aku Menjadi Pelacur
         author: Muhidin M. Dahlan
+
+      - title: Adat Berdaulat, Melawan Serbuan Kapitalisme di Aceh
+        author: Affan Ramli
 
       - title: Seandainya Aku Bisa Menanam Angin
         author: Fawaz
@@ -105,3 +108,6 @@ list:
       - title: 1984
         author: George Orwell
         status: read
+
+      - title: Berita Kehilangan
+        author: (Ed.) Sabda Armandio
